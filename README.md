@@ -1,7 +1,7 @@
 # Sample Selection with SOMP for Robust Basis Recovery In Sparse Coding Dictionary Learning
 
 ## Short Description
-This approach selects the samples with the highest residual error for each iteration and in theory learns distinct materials in the scene, regardless of their abundance distribution.
+This approach selects the samples with the highest residual error for each iteration and in theory learns distinct materials in the scene when the model has converged, regardless of their abundance distribution.
 
 ## Publication
 DOI: [10.1109/locs.2019.2938446](https://doi.org/10.1109/locs.2019.2938446)
