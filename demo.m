@@ -4,12 +4,12 @@
 function dictionary = demo
 
 % demo with indian pines scene
-load('/data/IndianPines.mat');
+load('IndianPines.mat');
 
 % Run the dictionary, and pre-process as needed like band selection and de-noising algorithms
 % demo run with 30 atoms and 8,000 iterations. Change as necessary.
 dictionary = SCD_TrainSOMP(IP, 30, 8000);
 clc;
-save('/results/dictionary', 'dictionary');
+save('dictionary', 'dictionary');
 
 end
